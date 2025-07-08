@@ -1,32 +1,32 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Carrot, Apple, Wheat, Milk } from "lucide-react";
+import { Carrot, Apple, Wheat, Flower } from "lucide-react";
 
 const ProductSection = () => {
   const products = [
     {
       icon: Carrot,
-      title: "Frisches Gemüse",
-      description: "Saisonales Gemüse direkt von unseren Partnerhöfen",
-      items: ["Kartoffeln", "Karotten", "Brokkoli", "Spinat", "Tomaten"]
+      title: "Feldgemüse",
+      description: "Frisches Gemüse direkt von unseren Feldern in Feldkirchen",
+      items: ["Kartoffeln", "Möhren", "Zwiebeln", "Rote Beete", "Kürbis"]
     },
     {
       icon: Apple,
-      title: "Obst",
-      description: "Süße und saftige Früchte aus regionalem Anbau",
-      items: ["Äpfel", "Birnen", "Beeren", "Steinobst", "Nüsse"]
+      title: "Salate & Kräuter",
+      description: "Knackige Salate und aromatische Kräuter aus dem Gewächshaus",
+      items: ["Kopfsalat", "Rucola", "Basilikum", "Petersilie", "Schnittlauch"]
     },
     {
       icon: Wheat,
-      title: "Getreide & Brot",
-      description: "Vollkorn-Getreide und frisches Brot vom Bäcker",
-      items: ["Dinkel", "Weizen", "Roggen", "Haferflocken", "Brot"]
+      title: "Getreide & Hülsenfrüchte",
+      description: "Vollkorn-Getreide und proteinreiche Hülsenfrüchte",
+      items: ["Dinkel", "Hafer", "Linsen", "Bohnen", "Erbsen"]
     },
     {
-      icon: Milk,
-      title: "Milchprodukte",
-      description: "Frische Milchprodukte von glücklichen Kühen",
-      items: ["Milch", "Käse", "Joghurt", "Butter", "Quark"]
+      icon: Flower,
+      title: "Blumen & Kräuter",
+      description: "Bunte Blumen und heilende Kräuter für Garten und Küche",
+      items: ["Sonnenblumen", "Ringelblumen", "Kamille", "Thymian", "Oregano"]
     }
   ];
 
@@ -35,11 +35,12 @@ const ProductSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-green-900 mb-4">
-            Unsere Produkte
+            Unsere Ernte
           </h2>
           <p className="text-xl text-green-700 max-w-3xl mx-auto">
-            Entdecke unser vielfältiges Sortiment an frischen, biologischen 
-            Lebensmitteln aus der Region. Alles saisonal und nachhaltig produziert.
+            Entdecke die Vielfalt unserer biologisch angebauten Produkte. 
+            Von knackigem Feldgemüse bis zu aromatischen Kräutern - 
+            alles saisonal und mit viel Liebe angebaut.
           </p>
         </div>
         

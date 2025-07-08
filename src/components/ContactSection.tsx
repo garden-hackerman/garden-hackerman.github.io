@@ -14,8 +14,8 @@ const ContactSection = () => {
             Kontakt & Mitgliedschaft
           </h2>
           <p className="text-xl text-green-700 max-w-3xl mx-auto">
-            Haben Sie Fragen oder möchten Sie Mitglied werden? 
-            Wir freuen uns auf Ihre Nachricht!
+            Haben Sie Interesse an einer Mitgliedschaft oder Fragen zu unserer 
+            Solidarischen Landwirtschaft? Wir freuen uns auf Ihre Nachricht!
           </p>
         </div>
         
@@ -50,7 +50,7 @@ const ContactSection = () => {
                 <label className="block text-sm font-medium text-green-700 mb-2">
                   Betreff
                 </label>
-                <Input placeholder="Worum geht es?" className="border-green-200 focus:border-green-500" />
+                <Input placeholder="Interesse an Mitgliedschaft" className="border-green-200 focus:border-green-500" />
               </div>
               <div>
                 <label className="block text-sm font-medium text-green-700 mb-2">
@@ -79,36 +79,35 @@ const ContactSection = () => {
                   <Mail className="h-6 w-6 text-green-600 mt-1" />
                   <div>
                     <h4 className="font-semibold text-green-800">E-Mail</h4>
-                    <p className="text-green-600">info@kartoffelkombinat.de</p>
-                    <p className="text-green-600">mitgliedschaft@kartoffelkombinat.de</p>
+                    <p className="text-green-600">info@auergarten.de</p>
+                    <p className="text-green-600">mitgliedschaft@auergarten.de</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <Phone className="h-6 w-6 text-green-600 mt-1" />
                   <div>
                     <h4 className="font-semibold text-green-800">Telefon</h4>
-                    <p className="text-green-600">+49 89 123 456 789</p>
+                    <p className="text-green-600">+49 89 456 789 012</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <MapPin className="h-6 w-6 text-green-600 mt-1" />
                   <div>
-                    <h4 className="font-semibold text-green-800">Adresse</h4>
+                    <h4 className="font-semibold text-green-800">Standorte</h4>
                     <p className="text-green-600">
-                      Kartoffelkombinat e.V.<br />
-                      Musterstraße 123<br />
-                      80333 München
+                      Feldkirchen-Westerham<br />
+                      Haar bei München<br />
+                      Vaterstetten
                     </p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <Clock className="h-6 w-6 text-green-600 mt-1" />
                   <div>
-                    <h4 className="font-semibold text-green-800">Öffnungszeiten</h4>
+                    <h4 className="font-semibold text-green-800">Abholzeiten</h4>
                     <p className="text-green-600">
-                      Mo-Fr: 9:00 - 18:00 Uhr<br />
-                      Sa: 9:00 - 14:00 Uhr<br />
-                      So: Geschlossen
+                      Mittwoch: 15:00 - 19:00 Uhr<br />
+                      Samstag: 9:00 - 13:00 Uhr
                     </p>
                   </div>
                 </div>
@@ -121,13 +120,13 @@ const ContactSection = () => {
               </CardHeader>
               <CardContent>
                 <p className="mb-6 text-green-100">
-                  Werden Sie Teil unserer Gemeinschaft und erhalten Sie 
-                  wöchentlich frische Bio-Produkte direkt vom Feld.
+                  Werden Sie Teil unserer Solidarischen Landwirtschaft und 
+                  erhalten Sie wöchentlich frisches Bio-Gemüse aus der Region.
                 </p>
                 <div className="space-y-3 mb-6 text-green-100">
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-green-300 rounded-full mr-3" />
-                    Wöchentliche Gemüsekiste
+                    Wöchentliche Erntekiste (ca. 6-8 kg)
                   </div>
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-green-300 rounded-full mr-3" />
@@ -135,11 +134,11 @@ const ContactSection = () => {
                   </div>
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-green-300 rounded-full mr-3" />
-                    Faire Preise
+                    Mitsprache bei der Anbauplanung
                   </div>
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-green-300 rounded-full mr-3" />
-                    Flexible Pausierung möglich
+                    Mithilfe auf dem Feld möglich
                   </div>
                 </div>
                 <Button className="w-full bg-white text-green-600 hover:bg-green-50">

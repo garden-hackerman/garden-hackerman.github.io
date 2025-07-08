@@ -1,28 +1,28 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Users, Heart, Truck, Leaf } from "lucide-react";
+import { Users, Heart, Sprout, HandHeart } from "lucide-react";
 
 const AboutSection = () => {
   const values = [
     {
       icon: Users,
       title: "Gemeinschaft",
-      description: "Wir sind eine solidarische Gemeinschaft, die gemeinsam nachhaltige Landwirtschaft unterstützt."
+      description: "Wir sind eine solidarische Gemeinschaft, die zusammen wirtschaftet und das Risiko teilt."
     },
     {
       icon: Heart,
       title: "Nachhaltigkeit",
-      description: "Umweltschutz und faire Bedingungen für Landwirte stehen im Zentrum unserer Arbeit."
+      description: "Biologischer Anbau ohne Pestizide und Kunstdünger für gesunde Böden und Umwelt."
     },
     {
-      icon: Truck,
-      title: "Regional",
-      description: "Kurze Transportwege und Unterstützung der lokalen Landwirtschaft sind uns wichtig."
+      icon: Sprout,
+      title: "Vielfalt",
+      description: "Über 40 verschiedene Gemüsesorten sorgen für Abwechslung in der wöchentlichen Erntekiste."
     },
     {
-      icon: Leaf,
-      title: "Bio-Qualität",
-      description: "100% biologische Produkte ohne Pestizide und chemische Zusätze."
+      icon: HandHeart,
+      title: "Transparenz",
+      description: "Offene Kalkulation und direkter Kontakt zwischen Erzeugern und Verbrauchern."
     }
   ];
 
@@ -33,18 +33,18 @@ const AboutSection = () => {
           <div className="space-y-8">
             <div>
               <h2 className="text-4xl font-bold text-green-900 mb-6">
-                Über das Kartoffelkombinat
+                Über den Auergarten
               </h2>
               <p className="text-lg text-green-700 mb-6">
-                Wir sind eine solidarische Landwirtschaftsgemeinschaft, die sich für 
-                nachhaltige Lebensmittelproduktion und faire Partnerschaften einsetzt. 
-                Seit unserer Gründung haben wir uns zum Ziel gesetzt, frische, 
-                biologische Lebensmittel direkt vom Erzeuger zu den Verbrauchern zu bringen.
+                Wir sind eine Solidarische Landwirtschaft (SoLaWi) im Großraum München. 
+                Auf unseren Feldern in Feldkirchen, Haar und Vaterstetten bauen wir 
+                gemeinsam mit unseren Mitgliedern vielfältiges Bio-Gemüse an.
               </p>
               <p className="text-lg text-green-700">
-                Unsere Mitglieder erhalten wöchentlich eine bunte Gemüsekiste mit 
-                saisonalen Produkten und unterstützen damit gleichzeitig lokale 
-                Landwirte und nachhaltige Anbaumethoden.
+                Das Prinzip ist einfach: Am Jahresanfang kalkulieren wir gemeinsam die 
+                Kosten für Saatgut, Pacht, Löhne und Maschinen. Diese Kosten werden 
+                auf alle Mitglieder umgelegt. Dafür erhalten alle wöchentlich eine 
+                Erntekiste mit frischem, saisonalem Gemüse.
               </p>
             </div>
           </div>
@@ -68,20 +68,20 @@ const AboutSection = () => {
         <div className="mt-20 bg-white rounded-2xl p-8 shadow-lg">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-3xl font-bold text-green-800 mb-2">8</div>
+              <div className="text-3xl font-bold text-green-800 mb-2">12</div>
               <div className="text-green-600">Jahre Erfahrung</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-green-800 mb-2">500+</div>
-              <div className="text-green-600">Zufriedene Mitglieder</div>
+              <div className="text-3xl font-bold text-green-800 mb-2">200+</div>
+              <div className="text-green-600">Mitglieder</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-green-800 mb-2">15</div>
-              <div className="text-green-600">Partner-Höfe</div>
+              <div className="text-3xl font-bold text-green-800 mb-2">3</div>
+              <div className="text-green-600">Standorte</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-green-800 mb-2">2000</div>
-              <div className="text-green-600">Kisten pro Woche</div>
+              <div className="text-3xl font-bold text-green-800 mb-2">40+</div>
+              <div className="text-green-600">Gemüsesorten</div>
             </div>
           </div>
         </div>
