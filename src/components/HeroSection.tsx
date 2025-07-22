@@ -119,7 +119,7 @@ const HeroSection = () => {
                 <div className="w-full h-full bg-white/10 backdrop-blur-sm rounded-2xl flex items-center justify-center">
                   <div className="text-center text-white">
                     <Leaf className="h-24 w-24 mx-auto mb-4 opacity-80" />
-                    <h3 className="text-2xl font-bold mb-2">Auergarten</h3>
+                    <h3 className="text-2xl font-bold mb-2">Auergarden</h3>
                     <p className="text-green-100">
                       Solidarische Landwirtschaft München
                     </p>

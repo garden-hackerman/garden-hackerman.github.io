@@ -33,7 +33,7 @@ const AboutSection = () => {
           <div className="space-y-8">
             <div>
               <h2 className="text-4xl font-bold text-green-900 mb-6">
-                Über den Auergarten
+                Über den Auergarden
               </h2>
               <p className="text-lg text-green-700 mb-6">
                 Wir sind eine Solidarische Landwirtschaft (SoLaWi) im Großraum München. 
