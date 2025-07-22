@@ -24,7 +24,7 @@ const ProductSection = () => {
     },
     {
       icon: Flower,
-      title: "Blumen & Kräuter",
+      title: "Kräuter & Blumen",
       description: "Bunte Blumen und heilende Kräuter für Garten und Küche",
       items: ["Sonnenblumen", "Ringelblumen", "Kamille", "Thymian", "Oregano"]
     }
